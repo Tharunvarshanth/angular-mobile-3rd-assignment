@@ -15,7 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxsModule } from '@ngxs/store';
-import { AppState } from './shared/state/app/app.state';
+import { AppState } from './state/app/app.state';
 @NgModule({
   declarations: [AppComponent, HomeComponent, DetailComponent],
   imports: [
