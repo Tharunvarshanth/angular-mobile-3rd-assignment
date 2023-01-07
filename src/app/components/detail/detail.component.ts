@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { AppState, Post } from '../../shared/state/app/app.state';
+import { AppState, Post } from '../../state/app/app.state';
 import { ActivatedRoute } from '@angular/router';
 import { Select, Store } from '@ngxs/store';
 import { Observable } from 'rxjs';
-import { FetchPostById } from '../../shared/state/app/app.actions';
+import { FetchPostById } from '../../state/app/app.actions';
 
 @Component({
   selector: 'app-detail',

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from '../../../services/post.service';
-import { FetchAllPosts } from '../../shared/state/app/app.actions';
+import { FetchAllPosts } from '../../state/app/app.actions';
 import { Select, Store } from '@ngxs/store';
-import { AppState, Post } from '../../shared/state/app/app.state';
+import { AppState, Post } from '../../state/app/app.state';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
 
